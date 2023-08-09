@@ -69,5 +69,4 @@ function changeToCross(id){
 }
 
 
-const arr = new Set([23,35,34,64]);
-console.log(arr.values());
+
