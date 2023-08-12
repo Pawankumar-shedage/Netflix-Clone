@@ -267,6 +267,13 @@ img{
     
 }
 
+@media(max-width:700px)
+{
+    .showcase::after{
+        box-shadow: inset 80px 50px 250px rgb(0,0,0), inset -80px -50px 250px rgb(0,0,0);
+    }
+}
+
 
 
 /* ---------Button classes. Utility classes------------------------------------------------------ */
