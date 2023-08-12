@@ -232,6 +232,33 @@ img{
 
     }
 
+    .charts h1{
+        font-size: 2.8rem;
+        line-height: 1;
+    }
+
+    .charts p{
+        font-size: 1.2rem;
+    }
+
+    .questionsBottom .container{
+        
+        /* color:red; */
+        width: calc(100% - 30px); /* Adjust the value as needed */
+        margin: 0 100px; /* This will create equal margins on both sides */
+        /* Other styles for your container */
+        
+    }
+    .questionsBottom p{
+        /* color:green; */
+        font-size: 1.2rem;
+    }
+
+    .questionsBottom p a{
+        /* color:green; */
+        font-size: 1.0rem;
+    }
+
     .btn-xl{
         /* color: green; */
         font-size: 15px;
