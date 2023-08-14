@@ -98,6 +98,25 @@ img{
     transform: translate(85%,-10%,-60%);
 }
 
+ /* .loginPopUp{
+    background: var(--primary-color); 
+    position: relative; 
+    z-index: 2147483649;
+}  */
+
+.loginPopUp{
+    
+    content: '';
+    /* background: red; */
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate(0%,0%);
+    z-index: 1;
+}
+
 .showcase-content{
   position: relative;
   margin: auto;

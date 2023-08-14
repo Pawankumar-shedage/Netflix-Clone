@@ -95,8 +95,8 @@ function fun11(e)
 }
 
 //Listen for tab icon click.
-crossIcons.forEach(x,y => x.addEventListener('click', selectIcon),
-                y.addEventListener('click', fun11));
+crossIcons.forEach(x => x.addEventListener('click', selectIcon)),
+crossIcons.forEach(y => y.addEventListener('click', fun11));
 
 // ----------------------------------------------
 
