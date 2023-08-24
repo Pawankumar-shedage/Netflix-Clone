@@ -104,6 +104,7 @@ img{
     z-index: 2147483649;
 }  */
 
+
 .loginPopUp{
     
     content: '';
@@ -115,7 +116,7 @@ img{
     height: 100%;
     transform: translate(0%,0%);
     z-index: 1;
-}
+} 
 
 .showcase-content{
   position: relative;

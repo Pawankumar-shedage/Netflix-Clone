@@ -21,23 +21,39 @@
 </head>
 <body>
 
+    
     <header class="showcase">
-        <div class="showcase-top">
-            <img src="./images/netflix-logo-png-large.png" alt="Netflix logo.">
+        <!-- adding bootstrap navbar -->
 
+        
+        
+        <div class="showcase-top">
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-sm navbar-light bg-light showcase-top" style="background-color: black;">
+                <img src="./images/netflix-logo-png-large.png" alt="Netflix logo.">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon">d</span>
+                </button>
+                
+                <select id="lang"  name="lang"  >
+                    <option value="English" > <i class="fa-solid fa-globe"></i> English <i class="fas fa-chevron-down"></i></option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Marathi">Marathi</option>
+                </select>
+                
+                <!-- <a href="/main/SignUp/SignUp.html" target="_blank" class="btn-top btn-rounded" role="button" type="button">Sign Up</a> -->
+                <a href="/main/SignUp/SignUp.html" target="login-popup" class="btn-top btn-rounded" role="button" type="button">Sign Up</a>
+                
+              </nav>
+            <!-- <img src="./images/netflix-logo-png-large.png" alt="Netflix logo."> -->
+             
             <!-- language input -->
             <!-- <i class="fa-solid fa-globe" style="color:white"></i> -->
-            <select id="lang"  name="lang"  >
-                <option value="English" > <i class="fa-solid fa-globe"></i> English <i class="fas fa-chevron-down"></i></option>
-                <option value="Hindi">Hindi</option>
-                <option value="Marathi">Marathi</option>
-            </select>
             
-            <!-- <a href="/main/SignUp/SignUp.html" target="_blank" class="btn-top btn-rounded" role="button" type="button">Sign Up</a> -->
-            <a href="/main/SignUp/SignUp.html" target="login-popup" class="btn-top btn-rounded" role="button" type="button">Sign Up</a>
 
             <!-- Login pop up -->
-            <div class="loginPopUp">
+            <div class=" "><!-- loginPopUp -->
                 <iframe   name="login-popup"   frameborder="0"
                 style="height:650px; width:100%; "></iframe>
             </div>
